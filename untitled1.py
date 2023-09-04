@@ -50,7 +50,7 @@ def add_reservation(employee_id, building_id, seat_id, date, df):
 
 def check_empty(seat_id, date):
 
-import streamlit as st
+    import streamlit as st
 
 # Title
 st.title("Simple Streamlit App")
