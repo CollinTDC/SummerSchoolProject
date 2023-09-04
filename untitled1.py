@@ -12,8 +12,6 @@ import pandas as pd
 # Create a reservation DataFrame
 
 df = pd.DataFrame()
-df
-
 # Add columns to df
 
 df['reservation_id'] = []
