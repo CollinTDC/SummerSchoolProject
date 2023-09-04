@@ -59,3 +59,15 @@ df = add_reservation(234, 3, 25, 100, df)
 
 df
 
+import streamlit as st
+
+# Title
+st.title("Simple Streamlit App")
+
+# Text input field
+user_input = st.text_input("Enter something:")
+
+# Display the user's input
+st.write(f"You entered: {user_input}")
+
+
