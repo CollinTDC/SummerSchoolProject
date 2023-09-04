@@ -55,8 +55,6 @@ def add_reservation(employee_id, building_id, seat_id, date, df):
 
 def check_empty(seat_id, date):
 
-df = add_reservation(234, 3, 25, 100, df)
-
 df
 
 import streamlit as st
