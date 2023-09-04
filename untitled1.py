@@ -30,9 +30,6 @@ def load_reservation_dataframe():
   df = pd.read_csv('reservation_data.csv')
 
   return df
-
-df
-
 # Create new reservation entry
 
 def add_reservation(employee_id, building_id, seat_id, date, df):
@@ -52,8 +49,6 @@ def add_reservation(employee_id, building_id, seat_id, date, df):
   return df
 
 def check_empty(seat_id, date):
-
-df
 
 import streamlit as st
 
